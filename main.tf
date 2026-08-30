@@ -12,5 +12,7 @@ resource "azurerm_storage_account" "example" {
 
   tags = {
     environment = "prod"
+    mail = "vishva@gmail.cp" 
   }
+
 }
